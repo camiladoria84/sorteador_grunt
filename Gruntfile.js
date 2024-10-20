@@ -16,16 +16,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-        watch: {
-            less: {
-                files: ['src/styles/**/*.less'],
-                tasks: ['less:development']
-            },
-            html: {
-                files: ['src/index.html'],
-                tasks: ['replace:dev']
-            }
-        },
         replace: {
             dev: {
                 options: {
